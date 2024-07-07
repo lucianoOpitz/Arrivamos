@@ -1,0 +1,113 @@
+body{
+    margin: 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(356deg, rgb(133, 138, 201) 10%, rgb(235, 247, 191) 54%, rgb(185, 159, 102) 98%);
+}
+h1{
+    margin: 5px;
+}
+#logo{
+    width: 15vw;
+    height: 10vh;
+}
+#header{
+    background: linear-gradient(356deg, rgb(1, 8, 102) 10%, rgb(235, 247, 191) 54%, rgb(0, 4, 58) 98%);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position:fixed;
+    z-index: 2;
+    left: 0px;
+    right: 0px;
+}
+#menu{
+    background: rgba(0,0,0, 0.1);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#lista-menu{
+    margin: 5px;
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+}
+.botones-menu{
+    text-align: center;
+    width: 10vw;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+.a{
+    text-decoration: none;
+    color: white;
+}
+.botones-menu:hover{
+    -webkit-transform: scale(1.1); 
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#footer{
+    display: flex;
+    background-color: black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    justify-content: space-around;
+    color: white;
+}
+#contacto{
+    padding-left: 1vw;
+    width: 18vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgba(255, 255, 255, 0.075);
+}
+#links-contacto{
+    display: flex;
+}
+.link{
+    text-align: center;
+    width: 6vw;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+#burocracia{
+    background-color: rgba(255, 255, 255, 0.075);
+    text-align: center;
+}
+#links-burocracia{
+    display: flex;
+}
+.link-b{
+    margin-left: 0.7vw;
+    margin-right: 0.7vw;
+    text-align: center;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+.link-b:hover,.link:hover{
+    -webkit-transform: scale(1.1); 
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.icon-f{
+    width: 5vh;
+    height: 5vh;
+}
+.hcontact{
+    margin:5px;
+}
